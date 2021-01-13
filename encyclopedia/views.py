@@ -5,6 +5,8 @@ from . import util
 
 
 def index(request):
+    if request = POST:
+        # search first for the search query else:
     return render(request, "encyclopedia/index.html", {
         "entries": util.list_entries()
     })
